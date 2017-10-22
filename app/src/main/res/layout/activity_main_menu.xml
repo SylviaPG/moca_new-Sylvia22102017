@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="moca.clockdraw.MainMenu">
+
+    <Button
+        android:id="@+id/startDataAnalyse_b"
+        android:layout_width="530dp"
+        android:layout_height="166dp"
+        android:layout_marginLeft="650dp"
+        android:layout_marginRight="8dp"
+        android:text="Daten Analysieren"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/startTest_b"
+        android:layout_width="530dp"
+        android:layout_height="166dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Test Starten"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/startDataAnalyse_b"
+        tools:layout_editor_absoluteY="248dp" />
+
+</android.support.constraint.ConstraintLayout>
